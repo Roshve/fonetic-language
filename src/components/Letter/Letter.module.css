@@ -1,0 +1,16 @@
+.letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  font-size: 32px;
+  font-weight: 400;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.letter:hover {
+  transition: 0.3 ease;
+  background-color: #b4b3b3;
+}

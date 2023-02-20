@@ -1,0 +1,29 @@
+.header {
+  height: 60px;
+  margin-bottom: 64px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  background-color: white;
+}
+
+.nav-router {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.nav-router a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.nav-router a:hover {
+  color: blue;
+}
